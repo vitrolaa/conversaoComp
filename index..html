@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador</title>
+    <link rel="stylesheet" href="comprimento.css">
+</head>
+
+<body>
+    <main>
+        <div id="title">
+            <h1>Conversor de comprimentos</h1>
+        </div>
+        <div id="container">
+
+
+
+            <div class="cxSl">
+                <label>Dê:</label>
+                <select  id="de">
+                    <option value="op1">Metros</option>
+                    <option value="op2">Centímetros</option>
+                    <option value="op3">Milímetros</option>
+                    <option value="op4">Polegadas</option>
+                </select>
+            </div>
+
+            <div class="cxSl">
+                <label>Para:</label>
+                <select id="para">
+                    <option value="op1">Metros</option>
+                    <option value="op2">Centímetros</option>
+                    <option value="op3">Milímetros</option>
+                    <option value="op4">Polegadas</option>
+                </select>
+            </div>
+
+            <div id="cxVl">
+                <label>Valor</label>
+                <input type="text" id="valorCv" placeholder="Valor que deseja converter.">
+                <button onclick="convert()">Converter</button>
+            </div>
+
+            <div id="res">
+                <label>Resultado</label>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+            </div>
+        </div>
+
+    </main>
+
+<script src="./js/script.js"></script>
+
+</body>
+
+</html>
